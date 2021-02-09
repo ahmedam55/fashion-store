@@ -1,4 +1,4 @@
-# Gists Explorer
+# Fashion Store
 
 ## See in Action
 
@@ -10,12 +10,12 @@ This project gives you the ability to explore all products.
 
 ## Technologies Used
 
-1. ReactJS
-2. Axios: one of the best lean, light, performant fetching libraries.
-3. Babel: for converting the modern JS sytanx to the sytanx all browsers support.
-4. Jest: for testing the whole project and deploy with confidence.
-5. Node-Sass: for processing the SCSS modules and scope it to its own modules with unique hashes.
-6. React Query: great library for managing the cache of the requests to the server and provide first-class experience to the users.
+1. **ReactJS**
+2. **Axios**: one of the best lean, light, performant fetching libraries.
+3. **Babel**: for converting the modern JS sytanx to the sytanx all browsers support.
+4. **Jest**: for testing the whole project and deploy with confidence.
+5. **Node-Sass**: for processing the SCSS modules and scope it to its own modules with unique hashes.
+6. **React Query**: great library for managing the cache of the requests to the server and provide first-class experience to the users.
 
 
 ## Available Scripts
