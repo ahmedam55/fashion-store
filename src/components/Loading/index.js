@@ -12,6 +12,7 @@ const MyLoader = memo(props => (
     backgroundColor="#f3f3f3"
     foregroundColor="#ecebeb"
     className={styles.loading}
+    uniqueKey="2wl92si"
     {...props}
   >
     <rect x="133" y="92" rx="5" ry="5" width="331" height="432" />
