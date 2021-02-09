@@ -1,0 +1,26 @@
+@import '../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import './styles/keyframes.scss';
+
+body {
+  font-family: apercu, Arial, Sans-Serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  transition: opacity 0.2s ease-in-out;
+
+  &,
+  &:hover {
+    color: inherit;
+  }
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.5;
+  }
+}

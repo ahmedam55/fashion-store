@@ -1,0 +1,70 @@
+[
+  {
+    "id": 0,
+    "smallImage": "/images/product-image-1.jpg",
+    "image": "/images/product-image-1.jpg",
+    "title": "Lakers",
+    "price": "250",
+    "currency": "AED",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#f5f4fb", "#fedf48", "#17161b", "#3f2b65"],
+    "description": "Opt for a bold look with T-shirt number 1. With its iconic Tiger print on the chest, it's sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look.",
+    "tags": ["Short-sleeved t-shirt.", "Round neck.", "Tiger embroidered on the chest."],
+    "similarProducts": [
+      { "id": 1, "image": "/images/product-image-2.jpg" },
+      { "id": 2, "image": "/images/product-image-3.jpg" },
+      { "id": 3, "image": "/images/product-image-4.jpg" }
+    ]
+  },
+  {
+    "id": 1,
+    "smallImage": "/images/product-image-2.jpg",
+    "image": "/images/product-image-2.jpg",
+    "title": "Lakers",
+    "price": "199",
+    "currency": "AED",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#fedf48", "#17161b", "#3f2b65", "#f5f4fb"],
+    "description": "Opt for a bold look with T-shirt number 2. With its iconic Tiger print on the chest, it's sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look.",
+    "tags": ["Short-sleeved t-shirt.", "Round neck.", "Tiger embroidered on the chest."],
+    "similarProducts": [
+      { "id": 0, "image": "/images/product-image-1.jpg" },
+      { "id": 2, "image": "/images/product-image-3.jpg" },
+      { "id": 3, "image": "/images/product-image-4.jpg" }
+    ]
+  },
+  {
+    "id": 2,
+    "smallImage": "/images/product-image-3.jpg",
+    "image": "/images/product-image-3.jpg",
+    "title": "Lakers",
+    "price": "499",
+    "currency": "AED",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#17161b", "#3f2b65", "#f5f4fb", "#fedf48"],
+    "description": "Opt for a bold look with T-shirt number 3. With its iconic Tiger print on the chest, it's sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look.",
+    "tags": ["Short-sleeved t-shirt.", "Round neck.", "Tiger embroidered on the chest."],
+    "similarProducts": [
+      { "id": 0, "image": "/images/product-image-1.jpg" },
+      { "id": 1, "image": "/images/product-image-2.jpg" },
+      { "id": 3, "image": "/images/product-image-4.jpg" }
+    ]
+  },
+  {
+    "id": 3,
+    "smallImage": "/images/product-image-4.jpg",
+    "image": "/images/product-image-4.jpg",
+    "title": "Lakers",
+    "price": "399",
+    "currency": "AED",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#3f2b65", "#f5f4fb", "#fedf48", "#17161b"],
+    "description": "Opt for a bold look with T-shirt number 4. With its iconic Tiger print on the chest, it's sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look.",
+    "tags": ["Short-sleeved t-shirt.", "Round neck.", "Tiger embroidered on the chest."],
+    "similarProducts": [
+      { "id": 0, "image": "/images/product-image-1.jpg" },
+      { "id": 1, "image": "/images/product-image-2.jpg" },
+      { "id": 2, "image": "/images/product-image-3.jpg" }
+    ]
+  }
+]

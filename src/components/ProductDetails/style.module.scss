@@ -1,0 +1,214 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.app {
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logoWrapper {
+  text-align: center;
+  margin-bottom: 35px;
+
+  @include media-breakpoint-up(sm) {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+
+  @include media-breakpoint-up(sm) {
+    width: 90px;
+  }
+}
+
+.navMenu {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin-bottom: 5px;
+
+  @include media-breakpoint-up(sm) {
+    max-width: 330px;
+  }
+
+  &Item {
+    flex: 1;
+    color: $gray;
+    font-weight: 500;
+  }
+}
+
+.searchWrapper {
+  position: relative;
+  margin-bottom: 25px;
+
+  @include media-breakpoint-up(sm) {
+    max-width: 330px;
+  }
+}
+
+.search {
+  width: 100%;
+  -webkit-appearance: none;
+
+  border-radius: 5px;
+  border: 1px solid $light-gray;
+  padding: 5px 10px;
+
+  outline: none;
+
+  @include placeholder() {
+    color: blue;
+  }
+
+  &Icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    right: 5px;
+
+    width: 20px;
+    height: 20px;
+  }
+}
+
+:global {
+  .__react_modal_image__modal_container {
+    animation: appear 0.3s ease-in-out forwards;
+  }
+}
+
+.product {
+  &Image {
+    transition: opacity 0.3s ease-in-out;
+    margin-bottom: 15px;
+    border-radius: 16px;
+
+    @include media-breakpoint-up(sm) {
+      //to override the Modal component that adds inline style to the inner image tag
+      max-width: 330px !important;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &Title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $gray;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+  }
+
+  &Price {
+    color: rgba($gray, 0.7);
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  &Sizes {
+    color: rgba($gray, 0.5);
+    font-weight: 400;
+    font-size: 21px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  &Size {
+    padding-right: 5px;
+    transition: 0.3s ease-in-out;
+
+    &Active {
+      color: rgba($gray, 0.7);
+      font-weight: 500;
+    }
+  }
+
+  &ColorsWrapper {
+    margin-top: 2px;
+  }
+
+  &Colors {
+    color: rgba($gray, 0.5);
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  &Color {
+    display: inline-block;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: 2px solid transparent;
+
+    &Active {
+      border-color: rgba($gray, 0.4);
+    }
+  }
+
+  &Description {
+    font-size: 14px;
+    font-weight: 400;
+    color: $gray;
+    margin-bottom: 0;
+    line-height: 1.5;
+
+    @include media-breakpoint-up(sm) {
+      margin-right: 100px;
+    }
+  
+
+    &Title {
+      font-size: 15px;
+      font-weight: 600;
+      color: rgba($gray, 0.9);
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+  }
+
+  &Tag {
+    display: block;
+    line-height: 1.5;
+  }
+
+  &MoreWrapper {
+    display: flex;
+  }
+
+  &More {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba($gray, 0.9);
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  &Thumbnail {
+    margin-bottom: 5px;
+    max-height: 128px;
+  }
+}
+
+.divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgba($light-gray, 0.2);
+}
