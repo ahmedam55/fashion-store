@@ -1,5 +1,5 @@
 import { QueryClientProvider, QueryClient } from 'react-query'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import ProductDetails from './components/ProductDetails'
 

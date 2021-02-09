@@ -82,19 +82,19 @@ const ProductDetails = ({ match }) => {
 
         <ul className={styles.navMenu}>
           <li className={styles.navMenuItem}>
-            <a href="#">Men</a>
+            <a href="#men">Men</a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="#">Women</a>
+            <a href="#women">Women</a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="#">Kids</a>
+            <a href="#kids">Kids</a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="#">FTW</a>
+            <a href="#ftw">FTW</a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="#">Accessories</a>
+            <a href="#accessories">Accessories</a>
           </li>
         </ul>
 
@@ -131,7 +131,7 @@ const ProductDetails = ({ match }) => {
 
                 return (
                   <a
-                    href="#"
+                    href={`#size-${index}`}
                     key={index}
                     className={classnames(styles.productSize, {
                       [styles.productSizeActive]: isActive,
@@ -152,14 +152,14 @@ const ProductDetails = ({ match }) => {
 
                   return (
                     <a
-                      href="#"
+                      href={`#color-${index}`}
                       key={index}
                       className={classnames(styles.productColor, {
                         [styles.productColorActive]: isActive,
                       })}
                       style={{ backgroundColor: color }}
                       onClick={event => activateCurrentColor(event, color)}
-                    />
+                    >color</a>
                   )
                 })}
               </div>

@@ -156,6 +156,10 @@
     margin-right: 5px;
     border: 2px solid transparent;
 
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+
     &Active {
       border-color: rgba($gray, 0.4);
     }
