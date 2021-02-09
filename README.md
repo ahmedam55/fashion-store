@@ -2,7 +2,7 @@
 
 ## See in Action
 
-[deployment](//https://fashion-store-neon.vercel.app)
+[Deployment](https://fashion-store-neon.vercel.app)
 
 ## Functionalities
 
