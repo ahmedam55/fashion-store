@@ -1,47 +1,25 @@
 {
-  "name": "gists-explorer",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "classnames": "^2.2.6",
-    "node-sass": "4.14.1",
-    "react": "^17.0.1",
-    "react-content-loader": "^6.0.1",
-    "react-dom": "^17.0.1",
-    "react-modal-image": "^2.5.0",
-    "react-query": "^3.6.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "uuid": "^8.3.2",
-    "web-vitals": "^0.2.4"
-  },
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lightbox2": "^2.11.3",
+    "parcel-plugin-static-files-copy": "^2.5.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "bootstrap": "^4.6.0",
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.32.6"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
 }

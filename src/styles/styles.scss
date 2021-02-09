@@ -1,0 +1,33 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import './keyframes.scss';
+
+body {
+  margin: 0;
+  font-family: apercu, Arial, Sans-Serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  transition: opacity 0.2s ease-in-out;
+
+  &,
+  &:hover {
+    color: inherit;
+  }
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.5;
+  }
+}

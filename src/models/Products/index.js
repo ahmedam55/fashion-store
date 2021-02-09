@@ -1,11 +1,11 @@
-import axios from 'axios'
+import $ from 'jquery'
 
 const Products = {
-  get() {
-    return axios.get(`/data/index.json`).then(response => {
-      const products = response.data
+  get(callback) {
+    return $.get(`/data/index.json`, data => {
+      const products = data
 
-      return products
+      callback(products)
     })
   },
 }

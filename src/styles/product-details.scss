@@ -1,5 +1,5 @@
-@import '../../styles/variables.scss';
-@import '../../styles/mixins.scss';
+@import './variables.scss';
+@import './mixins.scss';
 
 .app {
   padding-top: 15px;
@@ -17,7 +17,6 @@
     text-align: left;
     margin-bottom: 15px;
   }
-
 }
 
 .logo {
@@ -171,7 +170,6 @@
     @include media-breakpoint-up(sm) {
       margin-right: 100px;
     }
-  
 
     &Title {
       font-size: 15px;
@@ -211,4 +209,20 @@
   margin-top: 15px;
   margin-bottom: 15px;
   border: 1px solid rgba($light-gray, 0.2);
+}
+
+
+.loading {
+  max-width: 100%;
+  height: auto;
+}
+
+.error {
+  color: #d8000c;
+}
+
+
+//remove lighthouse close button
+.lb-data .lb-close {
+  display: none;
 }
