@@ -2,11 +2,21 @@
 
 ## See in Action
 
-[deployment](https://gists-explorer.vercel.app)
+[deployment](//https://fashion-store-neon.vercel.app)
 
 ## Functionalities
 
-This project gives you the ability to explore all gists on Github with usernames. Also it includes the last three who forked that gist.
+This project gives you the ability to explore all products.
+
+## Technologies Used
+
+1. ReactJS
+2. Axios: one of the best lean, light, performant fetching libraries.
+3. Babel: for converting the modern JS sytanx to the sytanx all browsers support.
+4. Jest: for testing the whole project and deploy with confidence.
+5. Node-Sass: for processing the SCSS modules and scope it to its own modules with unique hashes.
+6. React Query: great library for managing the cache of the requests to the server and provide first-class experience to the users.
+
 
 ## Available Scripts
 
@@ -27,5 +37,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
